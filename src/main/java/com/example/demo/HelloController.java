@@ -2,6 +2,7 @@ package com.example.demo;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
@@ -9,6 +10,22 @@ public class HelloController {
     @FXML
     private Label welcomeText;
     public TextArea digits;
+    public Button num1;
+    public Button num2;
+    public Button num3;
+    public Button num4;
+    public Button num5;
+    public Button num6;
+    public Button num7;
+    public Button num8;
+    public Button num9;
+    public Button num0;
+    public Button divide;
+    public Button multiply;
+    public Button plus;
+    public Button minus;
+    public Button equal;
+    public Button point;
 
     @FXML
     protected void onHelloButtonClick() {
