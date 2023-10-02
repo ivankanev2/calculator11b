@@ -47,4 +47,22 @@ public class HelloController {
     public void onDigitClick0(ActionEvent actionEvent) {
         digits.setText(digits.getText() + 0);
     }
+    public void onDigitClickMinus(ActionEvent actionEvent) {
+        digits.setText(digits.getText() + "-");
+    }
+    public void onDigitClickPlus(ActionEvent actionEvent) {
+        digits.setText(digits.getText() + "+");
+    }
+    public void onDigitClickEqual(ActionEvent actionEvent) {
+        digits.setText(digits.getText() + "=");
+    }
+    public void onDigitClickMultiply(ActionEvent actionEvent) {
+        digits.setText(digits.getText() + "*");
+    }
+    public void onDigitClickDivide(ActionEvent actionEvent) {
+        digits.setText(digits.getText() + "/");
+    }
+    public void onDigitClickPoint(ActionEvent actionEvent) {
+        digits.setText(digits.getText() + ".");
+    }
 }
