@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.*?>
+
 <AnchorPane prefHeight="235.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
     <Label fx:id="welcomeText" />
-    <Button layoutX="0" layoutY="52.0" onAction="#onDigitClick" prefHeight="25.0" prefWidth="46.0" text="1" />
-    <Button layoutX="0.0" layoutY="77.0" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="46.0" text="2" />
-    <Button layoutX="0.0" layoutY="102.0" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="46.0" text="3" />
-    <Button layoutX="85.0" layoutY="102.0" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="46.0" text="9" />
-    <Button layoutX="40.0" layoutY="52.0" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="46.0" text="4" />
-    <Button layoutX="40.0" layoutY="77.0" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="46.0" text="5" />
-    <Button layoutX="40.0" layoutY="102.0" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="46.0" text="6" />
-    <Button layoutX="85.0" layoutY="52.0" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="46.0" text="7" />
-    <Button layoutX="85.0" layoutY="77.0" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="46.0" text="8" />
-    <Button layoutX="40.0" layoutY="127.0" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="46.0" text="0" />
+    <Button layoutX="0" layoutY="52.0" onAction="#onDigitClick1" prefHeight="25.0" prefWidth="46.0" text="AC" />
+    <Button layoutX="0" layoutY="52.0" onAction="#onDigitClick1" prefHeight="25.0" prefWidth="46.0" text="1" />
+    <Button layoutX="0.0" layoutY="77.0" onAction="#onDigitClick2" prefHeight="25.0" prefWidth="46.0" text="2" />
+    <Button layoutX="0.0" layoutY="102.0" onAction="#onDigitClick3" prefHeight="25.0" prefWidth="46.0" text="3" />
+    <Button layoutX="85.0" layoutY="102.0" onAction="#onDigitClick9" prefHeight="25.0" prefWidth="46.0" text="9" />
+    <Button layoutX="40.0" layoutY="52.0" onAction="#onDigitClick4" prefHeight="25.0" prefWidth="46.0" text="4" />
+    <Button layoutX="40.0" layoutY="77.0" onAction="#onDigitClick5" prefHeight="25.0" prefWidth="46.0" text="5" />
+    <Button layoutX="40.0" layoutY="102.0" onAction="#onDigitClick6" prefHeight="25.0" prefWidth="46.0" text="6" />
+    <Button layoutX="85.0" layoutY="52.0" onAction="#onDigitClick7" prefHeight="25.0" prefWidth="46.0" text="7" />
+    <Button layoutX="85.0" layoutY="77.0" onAction="#onDigitClick8" prefHeight="25.0" prefWidth="46.0" text="8" />
+    <Button layoutX="40.0" layoutY="127.0" onAction="#onDigitClick0" prefHeight="25.0" prefWidth="46.0" text="0" />
+    <Button layoutX="0" layoutY="127.0" onAction="#onDigitClick0" prefHeight="25.0" prefWidth="46.0" text="00" />
+    <Button layoutX="85.0" layoutY="127.0" onAction="#onDigitClick0" prefHeight="25.0" prefWidth="46.0" text="." />
     <TextArea fx:id="digits" prefHeight="52.0" prefWidth="250.0" />
 </AnchorPane>
